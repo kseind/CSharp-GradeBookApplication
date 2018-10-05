@@ -5,9 +5,9 @@ using GradeBook.Enums;
 
 namespace GradeBook.GradeBooks
 {
-    public class StandartGradeBook : BaseGradeBook
+    public class StandardGradeBook : BaseGradeBook
     {
-        public StandartGradeBook(string name) : base(name)
+        public StandardGradeBook(string name) : base(name)
         {
             Type = GradeBookType.Standard;
         }
